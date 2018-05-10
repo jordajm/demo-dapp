@@ -29,11 +29,11 @@ class NavBar extends Component {
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container">
           <button className="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="/images/menu-icon-light.svg" alt="Menu" />
+            <img src="images/menu-icon-light.svg" alt="Menu" />
           </button>
           <Link to="/" className="navbar-brand mr-auto mr-lg-3">
             <div className="logo-container">
-              <img src="/images/origin-logo.svg" className="origin-logo" alt="Origin Protocol" />
+              <img src="images/origin-logo.svg" className="origin-logo" alt="Origin Protocol" />
             </div>
           </Link>
           <div className="collapse navbar-collapse order-2 order-lg-1" id="navbarSupportedContent">
@@ -53,15 +53,15 @@ class NavBar extends Component {
                   </div>
                 </div>
               </div>
-              <Link to="/create" className="nav-item nav-link"><img src="/images/add-listing-icon.svg" alt="Add Listing" className="add-listing" />Add Listing</Link>
+              <Link to="/create" className="nav-item nav-link"><img src="images/add-listing-icon.svg" alt="Add Listing" className="add-listing" />Add Listing</Link>
             </div>
           </div>
           <div className="static navbar-nav order-1 order-lg-2">
             <div className="nav-item notifications dropdown">
               <a className="nav-link active dropdown-toggle" id="notificationsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <div className="unread-badge"></div>
-                <img src="/images/alerts-icon.svg" className="notifications" alt="Notifications" />
-                <img src="/images/alerts-icon-selected.svg" className="notifications selected" alt="Notifications" />
+                <img src="images/alerts-icon.svg" className="notifications" alt="Notifications" />
+                <img src="images/alerts-icon-selected.svg" className="notifications selected" alt="Notifications" />
               </a>
               <div className="dropdown-menu dropdown-menu-right" aria-labelledby="notificationsDropdown">
                 <div className="triangle-container d-flex justify-content-end"><div className="triangle"></div></div>
@@ -107,7 +107,7 @@ class NavBar extends Component {
                       <div className="avatar-container">
                         <Link to="/profile">
                           {/* <img src={this.props.profile.pic} alt="avatar" /> */}
-                          <img src="/images/avatar-blue.svg" alt="avatar" />
+                          <img src="images/avatar-blue.svg" alt="avatar" />
                         </Link>
                       </div>
                       <div className="identification d-flex flex-column justify-content-between">
@@ -115,22 +115,22 @@ class NavBar extends Component {
                         <div>
                           {this.props.profile.published.phone &&
                             <Link to="/profile">
-                              <img src="/images/phone-icon-verified.svg" alt="phone verified icon" />
+                              <img src="images/phone-icon-verified.svg" alt="phone verified icon" />
                             </Link>
                           }
                           {this.props.profile.published.email &&
                             <Link to="/profile">
-                              <img src="/images/email-icon-verified.svg" alt="email verified icon" />
+                              <img src="images/email-icon-verified.svg" alt="email verified icon" />
                             </Link>
                           }
                           {this.props.profile.published.facebook &&
                             <Link to="/profile">
-                              <img src="/images/facebook-icon-verified.svg" alt="Facebook verified icon" />
+                              <img src="images/facebook-icon-verified.svg" alt="Facebook verified icon" />
                             </Link>
                           }
                           {this.props.profile.published.twitter &&
                             <Link to="/profile">
-                              <img src="/images/twitter-icon-verified.svg" alt="Twitter verified icon" />
+                              <img src="images/twitter-icon-verified.svg" alt="Twitter verified icon" />
                             </Link>
                           }
                         </div>

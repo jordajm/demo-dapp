@@ -21,7 +21,7 @@ const ONE_MINUTE = ONE_SECOND * 60
 const AccountUnavailable = () => (
   <Modal backdrop="static" data-modal="account-unavailable" isOpen={true}>
     <div className="image-container">
-      <img src="/images/flat_cross_icon.svg" role="presentation" />
+      <img src="images/flat_cross_icon.svg" role="presentation" />
     </div>
     You are not signed in to MetaMask.<br />
   </Modal>
@@ -33,7 +33,7 @@ const Loading = () => null
 const UnconnectedNetwork = () => (
   <Modal backdrop="static" data-modal="web3-unavailable" isOpen={true}>
     <div className="image-container">
-      <img src="/images/flat_cross_icon.svg" role="presentation" />
+      <img src="images/flat_cross_icon.svg" role="presentation" />
     </div>
     Connecting to network...
   </Modal>
@@ -42,7 +42,7 @@ const UnconnectedNetwork = () => (
 const UnsupportedNetwork = props => (
   <Modal backdrop="static" data-modal="web3-unavailable" isOpen={true}>
     <div className="image-container">
-      <img src="/images/flat_cross_icon.svg" role="presentation" />
+      <img src="images/flat_cross_icon.svg" role="presentation" />
     </div>
     MetaMask should be on <strong>Rinkeby</strong> Network<br />
     Currently on {props.currentNetworkName}.
@@ -52,7 +52,7 @@ const UnsupportedNetwork = props => (
 const Web3Unavailable = () => (
   <Modal backdrop="static" data-modal="web3-unavailable" isOpen={true}>
     <div className="image-container">
-      <img src="/images/flat_cross_icon.svg" role="presentation" />
+      <img src="images/flat_cross_icon.svg" role="presentation" />
     </div>
     MetaMask extension not installed.<br />
     <a target="_blank" href="https://metamask.io/" rel="noopener noreferrer">

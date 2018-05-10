@@ -18,7 +18,7 @@ class User extends Component {
           <div className="row">
             <div className="col-12 col-sm-4 col-md-3 col-lg-2">
               <div className="primary avatar-container">
-                <img src="/images/avatar-blue.svg" alt="avatar" />
+                <img src="images/avatar-blue.svg" alt="avatar" />
               </div>
             </div>
             <div className="col-12 col-sm-8 col-md-9 col-lg-10">
@@ -31,19 +31,19 @@ class User extends Component {
               <div className="verifications-box">
                 <h3>Verified Info</h3>
                 <div className="service d-flex">
-                  <img src="/images/phone-icon-verified.svg" alt="phone verified icon" />
+                  <img src="images/phone-icon-verified.svg" alt="phone verified icon" />
                   <div>Phone</div>
                 </div>
                 <div className="service d-flex">
-                  <img src="/images/email-icon-verified.svg" alt="email verified icon" />
+                  <img src="images/email-icon-verified.svg" alt="email verified icon" />
                   <div>Email</div>
                 </div>
                 <div className="service d-flex">
-                  <img src="/images/facebook-icon-verified.svg" alt="Facebook verified icon" />
+                  <img src="images/facebook-icon-verified.svg" alt="Facebook verified icon" />
                   <div>Facebook</div>
                 </div>
                 <div className="service d-flex">
-                  <img src="/images/twitter-icon-verified.svg" alt="Twitter verified icon" />
+                  <img src="images/twitter-icon-verified.svg" alt="Twitter verified icon" />
                   <div>Twitter</div>
                 </div>
               </div>
@@ -52,7 +52,7 @@ class User extends Component {
               <div className="reviews">
                 <h2>Reviews <span className="review-count">{Number(57).toLocaleString()}</span></h2>
                 {data.reviews.map(r => <Review key={r._id} review={r} />)}
-                <a href="#" className="reviews-link" onClick={() => alert('To Do')}>Read More<img src="/images/carat-blue.svg" className="down carat" alt="down carat" /></a>
+                <a href="#" className="reviews-link" onClick={() => alert('To Do')}>Read More<img src="images/carat-blue.svg" className="down carat" alt="down carat" /></a>
               </div>
             </div>
           </div>

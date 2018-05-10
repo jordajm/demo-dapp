@@ -12,8 +12,8 @@ class UserCard extends Component {
           <div className="d-flex">
             <div className="image-container">
               <Link to={`/users/${address}`}>
-                <img src="/images/identicon.png"
-                  srcSet="/images/identicon@2x.png 2x, /images/identicon@3x.png 3x"
+                <img src="images/identicon.png"
+                  srcSet="images/identicon@2x.png 2x, images/identicon@3x.png 3x"
                   alt="wallet icon" />
               </Link>
             </div>
@@ -25,22 +25,22 @@ class UserCard extends Component {
           <hr className="dark sm" />
           <div className="d-flex">
             <div className="avatar-container">
-              <img src="/images/avatar-blue.svg" alt="avatar" />
+              <img src="images/avatar-blue.svg" alt="avatar" />
             </div>
             <div className="identification d-flex flex-column justify-content-between">
               <div><Link to={`/users/${address}`}>{name}</Link></div>
               <div>
                 <Link to={`/users/${address}`}>
-                  <img src="/images/phone-icon-verified.svg" alt="phone verified icon" />
+                  <img src="images/phone-icon-verified.svg" alt="phone verified icon" />
                 </Link>
                 <Link to={`/users/${address}`}>
-                  <img src="/images/email-icon-verified.svg" alt="email verified icon" />
+                  <img src="images/email-icon-verified.svg" alt="email verified icon" />
                 </Link>
                 <Link to={`/users/${address}`}>
-                  <img src="/images/facebook-icon-verified.svg" alt="Facebook verified icon" />
+                  <img src="images/facebook-icon-verified.svg" alt="Facebook verified icon" />
                 </Link>
                 <Link to={`/users/${address}`}>
-                  <img src="/images/twitter-icon-verified.svg" alt="Twitter verified icon" />
+                  <img src="images/twitter-icon-verified.svg" alt="Twitter verified icon" />
                 </Link>
               </div>
             </div>
