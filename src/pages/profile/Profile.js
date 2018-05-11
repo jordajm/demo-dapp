@@ -222,7 +222,7 @@ class Profile extends Component {
                 </div>
               </div>
 
-              <h2>Verify yourself on Origin2</h2>
+              <h2>Verify yourself on Origin</h2>
               <Services
                 published={published}
                 provisional={provisional}
