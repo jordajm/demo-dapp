@@ -57,7 +57,7 @@
     "start": "if [ \"$NODE_ENV\" = \"production\" ]; then npm run serve; else npm run dev; fi",
     "serve": "serve build",
     "dev": "webpack-dev-server --open",
-    "build": "NODE_ENV=production webpack --progress",
+    "build": "NODE_ENV=production webpack --progress --display errors-only",
     "test": "node scripts/test.js --env=jsdom"
   },
   "babel": {
